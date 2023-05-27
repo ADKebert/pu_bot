@@ -1,9 +1,0 @@
-{application,pu_bot,
-             [{applications,[kernel,stdlib,elixir,logger,nostrum]},
-              {description,"pu_bot"},
-              {modules,['Elixir.PuBot','Elixir.PuBot.Discord.BotCommands',
-                        'Elixir.PuBot.Discord.BotConsumer',
-                        'Elixir.PuBot.Discord.Supervisor']},
-              {registered,[]},
-              {vsn,"0.1.0"},
-              {env,[{guild_id,<<>>},{bot_token,<<>>}]}]}.
