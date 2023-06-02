@@ -1,4 +1,4 @@
-defmodule PuBot.Ratings.OpenskillHarness do
+defmodule PuBot.Ratings.Openskill.Harness do
     @moduledoc """
     This module is a wrapper around the openskill library.
     It lets us set defaults for starting mu and rating model.
